@@ -102,6 +102,11 @@ jhipster:
         base64-secret: MTMxYWI2ZWUzZGRlNTdkN2Y4OGI0MTdmNDVlYzU2MzM1ZDg0NWU0NTY4ODFmMzBhZTIzNzIxNGE3MzgyOGM1NjM0ODQyYjdhYWMzNDA3YWRkZGRmOTNhNjRkMmU1MTJiYTU1MjkxNjg2MWVlMzdkZGFkMzUyYWNhNzRlOTdhMWQ=
         # Token is valid 24 hours
         token-validity-in-seconds: 86400
+
+azure:
+  application-insights:
+    enabled: false
+    instrumentation-key: changeit
 # ===================================================================
 # Application specific properties
 # Add your own application properties here, see the ApplicationProperties class
